@@ -12,7 +12,7 @@ h1{
 h6{
   color: rgb(1, 0, 10);
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom:150px ;
 }
@@ -40,4 +40,21 @@ background-repeat:no-repeat;
   background-image:url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.Expriences-itam{
+  width:40% ;
+  margin-left: 5%;
+  nav-right: 5%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+.Expriences-itam{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  }
+  #web-devo{
+  border-left: 7px solid ;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
